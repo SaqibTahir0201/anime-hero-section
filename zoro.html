@@ -117,7 +117,6 @@
           let movies_array = data.filter((ele) => {
             return ele.name === "Zoro";
           });
-          document.getElementById("title").innerText = movies_array[0].name;
           document
             .getElementsByTagName("video")[0]
             .setAttribute("src", movies_array[0].trailer);
