@@ -53,7 +53,7 @@ fetch(json_url)
       cards.appendChild(card);
     });
 
-    document.getElementById("title").innerText = data[0].name;
+    // document.getElementById("title").innerText = data[0].name;
     document.getElementById("gen").innerText = data[0].genre;
     document.getElementById("date").innerText = data[0].date;
     document.getElementById(
